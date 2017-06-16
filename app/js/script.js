@@ -158,5 +158,5 @@
 //         element.removeClass('fixed');
 //     }
 // }
-
+$('.header').parallax({imageSrc: '../img/header-absolute.png'});
 
