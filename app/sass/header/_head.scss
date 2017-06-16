@@ -1,0 +1,26 @@
+.header {
+
+  .parallax-window{
+    min-height: 840px;
+    background: transparent;
+  }
+  &__nav {
+    margin-top: 42px;
+    padding: 0;
+    li a {
+      color: #132a34;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+  &__title {
+    color: #132a34;
+    font-family: $bebasBold;
+    font-weight: 400;
+    line-height: 111px;
+    font-size: 120px;
+    span{
+      font-size: 116px;
+    }
+  }
+}
