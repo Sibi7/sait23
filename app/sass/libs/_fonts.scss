@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic,cyrillic-ext');
 
 $bebasBold: 'BebasNeue-Bold';
-$bebasBook: 'BebasNeue-Book';
 $bebas-Regular:'BebasNeue-Regular';
+$bebas-Book: 'BebasNeueBook';
 $qanelasExtra: 'QanelasExtraBold';
 $latoMedium: 'Lato-medium';
 $latoRegular: 'Lato-Regular';
@@ -17,14 +17,6 @@ $latoRegular: 'Lato-Regular';
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'BebasNeue-Book';
-  src: url('fonts/BebasNeue Book.eot');
-  src: local('☺'), url('fonts/BebasNeue Book.woff')
-  format('woff'), url('fonts/BebasNeue Book.ttf') format('truetype'), url('fonts/BebasNeue Book.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'BebasNeue-Regular';
@@ -33,6 +25,16 @@ $latoRegular: 'Lato-Regular';
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'BebasNeueBook';
+  src: url('../fonts/bebas/BebasNeueBook.eot') format('embedded-opentype'),
+  url('../fonts/bebas/BebasNeueBook.woff2') format('woff2'),
+  url('../fonts/bebas/BebasNeueBook.woff') format('woff'),
+  url('../fonts/bebas/BebasNeueBook.ttf') format('truetype'),
+  url('../fonts/bebas/BebasNeueBook.svg') format('svg');
+  font-weight: normal;
+}
+
 
 @font-face {
   font-family: 'QanelasExtraBold';

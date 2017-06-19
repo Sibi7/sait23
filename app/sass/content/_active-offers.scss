@@ -1,0 +1,128 @@
+.active-offers{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  z-index: 1;
+  &__absolute{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 450px;
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  h1{
+    color: #132a34;
+    font-family: $bebasBold;
+    font-size: 57px;
+    margin: 20px 0 0 0;
+  }
+  h2{
+    color: #132a34;
+    font-size: 57px;
+    font-family: $bebas-Book;
+    margin: 0;
+  }
+  p{
+    color: #163c48;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+  }
+  &__link-tabs{
+    margin-top: 30px;
+    a{
+      font-family: $bebasBold;
+      font-size: 26px;
+      font-weight: 400;
+      color: #000000;
+      text-transform: uppercase;
+      transition: 200ms ease;
+
+    }
+    span{
+      color: #000;
+      font-size: 26px;
+      padding: 0 25px;
+    }
+
+    a:hover{
+      color: #f20846;
+      transition: 200ms ease;
+    }
+  }
+  &__wrapper{
+    margin-top: 60px;
+    margin-bottom: 150px;
+    z-index: 4;
+   &__item{
+     cursor: pointer;
+     border-right: 1px solid #a8acb9;
+     transition: 200ms ease;
+
+     &:last-child{
+       border-right: none;
+     }
+     &:hover{
+       box-shadow: 7px 27px 57px rgba(0, 0, 0, 0.3);
+       border-radius: 10px;
+       background-color: #ffffff;
+       border: none;
+       transition: 200ms ease;
+       transform: scale(1.1);
+     }
+     &:hover button{
+       color: #fff;
+       background: #000;
+       border: 0;
+       background-image: linear-gradient(to top, #ac0141 0%, #ac0141 66%, #f20846 99%, #f20846 100%);
+     }
+     h3{
+       color: #132a34;
+       font-size: 19px;
+       font-weight: 700;
+       text-transform: uppercase;
+       margin: 15px 0 15px 0;
+     }
+     img{
+       margin-bottom: 15px;
+     }
+     span{
+       display: block;
+       color: #132a34;
+       font-family: $qanelasExtra;
+       font-size: 25px;
+       font-weight: 800;
+       margin-bottom: 10px;
+     }
+     ul{
+       padding: 0 15px;
+       margin: 0;
+       li{
+         color: #132a34;
+         font-size: 13px;
+         font-weight: 400;
+         line-height: 15px;
+       }
+     }
+     button{
+       width: 195px;
+       height: 38px;
+       border-radius: 18px;
+       border: 2px solid #cd2a69;
+       background: transparent;
+       color: #132a34;
+       font-size: 14px;
+       font-weight: 700;
+       line-height: 25px;
+       text-transform: uppercase;
+       margin-top: 15px;
+       margin-bottom: 15px;
+     }
+   }
+
+  }
+}

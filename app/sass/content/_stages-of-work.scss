@@ -1,0 +1,83 @@
+  .stages-of-work {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    background: url("../img/stages-of-work.png") no-repeat;
+    background-size: cover;
+    &__absolute {
+      background: url("../img/oblaka-top.png") no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: -150px;
+      width: 100%;
+      left: 0;
+      z-index: 2;
+      height: 150px;
+    }
+    h1 {
+      color: #132a34;
+      font-size: 57px;
+      font-weight: 700;
+      font-family: $bebasBold;
+      margin-bottom: 120px;
+      span {
+        font-weight: 300;
+        font-family: $bebas-Book;
+      }
+    }
+    &__item {
+      float: left;
+      display: block;
+      margin: 0 0 0 80px;
+      span {
+        opacity: 0.18;
+        position: absolute;
+        bottom: -54px;
+        color: #132a34;
+        font-family: $qanelasExtra;
+        font-size: 161px;
+        font-weight: 800;
+      }
+      p {
+        display: inline-block;
+        margin: 0;
+        position: relative;
+        bottom: -18px;
+        color: #132a34;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+    &__block-item-2 {
+      display: block;
+      position: relative;
+      margin-top: 100px;
+      margin-bottom: 300px;
+      float: left;
+      width: 100%;
+      &__item {
+        float: left;
+        display: block;
+        margin: 0 0 0 50px;
+        span {
+          opacity: 0.18;
+          position: absolute;
+          bottom: -54px;
+          color: #132a34;
+          font-family: $qanelasExtra;
+          font-size: 161px;
+          font-weight: 800;
+        }
+        p {
+          display: inline-block;
+          margin: 0;
+          position: relative;
+          bottom: 0;
+          color: #132a34;
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+    }
+  }

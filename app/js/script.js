@@ -158,7 +158,11 @@
 //         element.removeClass('fixed');
 //     }
 // }
-$('.header').parallax({imageSrc: '../img/header-absolute.png'});
+$('.header').parallax({imageSrc: '../img/header-absolute.png', iosFix: true});
+$('.active-offers').parallax({
+    imageSrc: '../img/bg-offer.png',
+    Zindex: -100
+});
 
 
 
