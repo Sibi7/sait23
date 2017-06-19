@@ -160,10 +160,23 @@
 // }
 $('.header').parallax({imageSrc: '../img/header-absolute.png', iosFix: true});
 $('.active-offers').parallax({
-    imageSrc: '../img/bg-offer.png',
-    Zindex: -100
+    imageSrc: '../img/bg-offer.png'
 });
 
-
-
-
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText: ["<i class='fa fa-arrow-right'></i>","<i class='fa fa-arrow-left'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});

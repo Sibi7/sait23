@@ -1,0 +1,58 @@
+.best-work {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  h1 {
+    color: #132a34;
+    font-family: $bebasBold;
+    font-size: 57px;
+    font-weight: 400;
+    span {
+      color: #132a34;
+      font-family: $bebas-Book;
+      font-size: 57px;
+    }
+  }
+  &__owl {
+    display: block;
+    position: relative;
+    width: 70%;
+    float: right;
+  }
+  .owl-nav {
+    display: block;
+    position: absolute;
+    top: 43%;
+    left: -11%;
+
+  }
+  .owl-prev {
+    position: absolute;
+    margin-left: 60px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 3px solid transparent;
+    transition: 200ms ease;
+    line-height: 30px;
+    border-radius: 50%;
+    &:hover{
+      border: 3px solid #f30145;
+      color: #d72461;
+    }
+  }
+  .owl-next {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid transparent;
+    transition: 200ms ease;
+    line-height: 30px;
+    &:hover{
+     border: 3px solid #f30145;
+      color: #d72461;
+    }
+  }
+}
