@@ -1,0 +1,97 @@
+.footer-form {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 800px;
+  &__absolute {
+    position: relative;
+    z-index: 55;
+    width: 653px;
+    height: 498px;
+    box-shadow: 5px 20px 35px rgba(0, 0, 1, 0.16);
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 200px;
+    bottom: -50px;
+    margin-bottom: 100px;
+    h1 {
+      padding: 36px 0;
+      color: #132a34;
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 31px;
+      font-family: $latoBlack;
+      text-transform: uppercase;
+    }
+    input {
+      border: none;
+      border-bottom: 1px solid #ccc;
+      width: 369px;
+      line-height: 40px;
+      padding-left: 23px;
+      &::placeholder{
+        color: #2c2c2c;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        opacity: 1;
+      }
+    }
+    label {
+      width: 100px;
+      text-align: right;
+      color: #9fa3a7;
+      font-family: $latoBlack;
+      font-size: 11px;
+      font-weight: 900;
+      line-height: 31px;
+      text-transform: uppercase;
+      span{
+        color: #f9593a;
+      }
+
+    }
+    textarea {
+      padding: 10px 10px;
+      width: 369px;
+      max-width: 369px;
+      min-width: 369px;
+      height: 100px;
+      max-height: 100px;
+      min-height: 100px;
+      border: 1px solid #ccc;
+      margin-top: 50px;
+    }
+    .question {
+      position: relative;
+      top: -107px;
+    }
+    p{
+      color: #9fa3a7;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 26px;
+      span{
+        color: #f9593a;
+      }
+    }
+    button{
+      width: 180px;
+      height: 43px;
+      border-radius: 10px;
+      color: #fbfbfb;
+      font-family: $latoBlack;
+      font-size: 15px;
+      font-weight: 900;
+      line-height: 24px;
+      text-transform: uppercase;
+      background-color: #ffc80a;
+      border: none;
+      background-image: linear-gradient(0deg,#cf014f,#cf014f,#f20846 99%,#f20846);
+    }
+
+  }
+
+}

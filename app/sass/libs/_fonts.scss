@@ -6,6 +6,7 @@ $bebas-Book: 'BebasNeueBook';
 $qanelasExtra: 'QanelasExtraBold';
 $latoMedium: 'Lato-medium';
 $latoRegular: 'Lato-Regular';
+$latoBlack: 'Lato-Blak';
 
 @font-face {
   font-family: 'BebasNeue-Bold';
@@ -17,6 +18,16 @@ $latoRegular: 'Lato-Regular';
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'Lato-Blak';
+  src: url('../fonts/lato/LatoBlack.eot');
+  src: local('☺'), url('../fonts/lato/LatoBlack.woff')
+  format('woff'), url('../fonts/lato/LatoBlack.ttf')
+  format('truetype'), url('../fonts/lato/LatoBlack.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'BebasNeue-Regular';
@@ -56,6 +67,16 @@ $latoRegular: 'Lato-Regular';
   url('../fonts/lato/LatoMedium.svg') format('svg');
   font-weight: normal;
 }
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../fonts/lato/LatoRegular.eot') format('embedded-opentype'),
+  url('../fonts/lato/LatoRegular.woff2') format('woff2'),
+  url('../fonts/lato/LatoRegular.woff') format('woff'),
+  url('../fonts/lato/LatoRegular.ttf') format('truetype'),
+  url('../fonts/lato/LatoRegular.svg') format('svg');
+  font-weight: normal;
+}
+
 @font-face {
   font-family: 'Lato-Regular';
   src: url('../fonts/lato/LatoRegular.eot') format('embedded-opentype'),

@@ -158,10 +158,9 @@
 //         element.removeClass('fixed');
 //     }
 // }
-$('.header').parallax({imageSrc: '../img/header-absolute.png', iosFix: true});
-$('.active-offers').parallax({
-    imageSrc: '../img/bg-offer.png'
-});
+$('.header').parallax();
+$('.active-offers').parallax();
+$('.footer-form').parallax();
 
 $('.owl-carousel').owlCarousel({
     loop:true,

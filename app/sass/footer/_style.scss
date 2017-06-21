@@ -1,0 +1,95 @@
+.footer {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  background: #fff;
+  min-height: 400px;
+  &__absolute {
+    background: url("../img/footer-absolute-top.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: -199px;
+  }
+  h1 {
+    color: #132a34;
+    font-family: $bebasBold;
+    font-size: 57px;
+    span {
+      font-family: $bebas-Book;
+    }
+  }
+  img {
+    margin: 0 10px;
+    object-fit: cover;
+  }
+  &__static {
+    width: 950px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    &__item {
+      width: 50%;
+      display: block;
+      border-bottom: 1px solid #132a34;
+      float: left;
+      position: relative;
+      h1 {
+        color: #132a34;
+        font-family: $latoRegular;
+        font-size: 24px;
+        padding-bottom: 40px;
+        font-weight: 400;
+        margin-top: 30px;
+        line-height: 32px;
+        text-transform: uppercase;
+        span {
+          font-size: 45px;
+          font-weight: 700;
+          font-family: $latoMedium;
+        }
+      }
+    }
+
+  }
+  &__social {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 55px;
+    h3 {
+      color: #132a34;
+      font-family: $latoMedium;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+    a {
+      color: #132a34;
+      margin: 10px 20px 20px 20px;
+      display: inline-block;
+    }
+    &__bottom {
+      position: relative;
+      width: 530px;
+      margin-bottom: 30px;
+      float: left;
+      right: -100px;
+      .photo{
+        float: left;
+        margin:10px;
+        display:inline;
+      }
+      .description{
+        width: 400px;
+        float: left;
+        text-align: left;
+        color: #132a34;
+        font-size: 19px;
+        font-weight: 400;
+      }
+    }
+  }
+}
