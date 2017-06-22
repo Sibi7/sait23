@@ -12,7 +12,7 @@
     height: 200px;
     position: absolute;
     left: 0;
-    top: -199px;
+    top: -197px;
   }
   h1 {
     color: #132a34;
@@ -60,6 +60,7 @@
     margin: 0 auto;
     display: block;
     margin-top: 55px;
+
     h3 {
       color: #132a34;
       font-family: $latoMedium;
@@ -70,6 +71,10 @@
       color: #132a34;
       margin: 10px 20px 20px 20px;
       display: inline-block;
+      &:hover{
+        color: #f20846;
+        transition: 200ms ease;
+      }
     }
     &__bottom {
       position: relative;

@@ -38,20 +38,17 @@
     line-height: 30px;
     border-radius: 50%;
     &:hover{
-      border: 3px solid #f30145;
       color: #d72461;
     }
   }
   .owl-next {
     height: 40px;
     width: 40px;
-    border-radius: 50%;
     text-align: center;
     border: 3px solid transparent;
     transition: 200ms ease;
     line-height: 30px;
     &:hover{
-     border: 3px solid #f30145;
       color: #d72461;
     }
   }

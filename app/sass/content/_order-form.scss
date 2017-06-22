@@ -2,15 +2,15 @@
   position: relative;
   float: left;
   width: 100%;
-  min-height: 900px;
+  min-height: 822px;
   background: url("../img/form-bg.png") no-repeat;
   background-size: cover;
   h1{
-    margin-top: 194px;
+    margin-top: 232px;
     color: #132a34;
-    font-size: 52px;
+    font-size: 50px;
     font-weight: 400;
-    line-height: 66px;
+    line-height: 48px;
     font-family: $bebasBold;
     span{
       font-family: $bebas-Book;
@@ -19,8 +19,8 @@
   }
   input{
     display: block;
-    width: 371px;
-    height: 51px;
+    width: 355px;
+    height: 44px;
     border-radius: 10px;
     border: 1px solid #cc0141;
     background-color: #edeff1;
@@ -42,6 +42,9 @@
     position: absolute;
     top: 224px;
     left: -80px;
+    img{
+      width: 170px;
+    }
   }
   button{
     width: 242px;
@@ -50,7 +53,7 @@
     background-image: linear-gradient(0deg,#cf014f,#cf014f 0,#f20846 99%,#f20846);
     border: none;
     color: #ffffff;
-    margin-bottom: 50px;
+    margin-bottom: 33px;
     font-size: 18px;
     font-weight: 500;
     line-height: 34px;
@@ -67,7 +70,7 @@
   &__absolute-form{
     position: absolute;
     top: 178px;
-    width: 700px;
+    width: 650px;
     img{
       object-fit: cover;
       width: 100%;

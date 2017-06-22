@@ -166,7 +166,7 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    navText: ["<i class='fa fa-arrow-right'></i>","<i class='fa fa-arrow-left'></i>"],
+    navText: ["<i class='fa fa-angle-right fa-3x' ></i>","<i class='fa fa-angle-left fa-3x'></i>"],
     responsive:{
         0:{
             items:1
