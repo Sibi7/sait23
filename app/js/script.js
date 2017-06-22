@@ -179,3 +179,15 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+$(document).ready(function () {
+    var link =$('.menu-link');
+    var link_active = $('.menu-link_active');
+
+    link.click(function () {
+        link.toggleClass('menu-link_active');
+    })
+});
+$( ".menu-link" ).click(function() {
+    $( ".header__nav" ).slideToggle( "slow", function() {
+    });
+});

@@ -87,6 +87,30 @@
   }
   .header__nav {
     display: none;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    margin: 0;
+    float: left;
+    width: 100%;
+    background: rgba(59, 226, 251, .8);
+    z-index: 5;
+    padding-top: 50%;
+  }
+  .header__nav li {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 40px;
+    &:hover{
+      background: #fff;
+      transition: 200ms ease;
+    }
+    a{
+     &:hover{
+       color: #132a34;
+     }
+    }
   }
   .header__title {
     color: #132a34;
