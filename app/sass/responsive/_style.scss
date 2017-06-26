@@ -1,4 +1,4 @@
-@media only screen and  (min-width: 1375px){
+@media only screen and (min-width: 1375px) {
   .stages-of-work__absolute {
     top: -146px;
   }
@@ -18,9 +18,6 @@
   }
   .active-offers__absolute {
     display: none;
-  }
-  .active-offers {
-    padding-bottom: 147px;
   }
   .footer__static {
     width: 100%;
@@ -102,14 +99,14 @@
     text-align: center;
     margin-top: 30px;
     line-height: 40px;
-    &:hover{
+    &:hover {
       background: #fff;
       transition: 200ms ease;
     }
-    a{
-     &:hover{
-       color: #132a34;
-     }
+    a {
+      &:hover {
+        color: #132a34;
+      }
     }
   }
   .header__title {
@@ -129,6 +126,13 @@
 }
 
 @media only screen and (max-width: 736px) {
+  .advantages .absolute-bottom {
+    display: none;
+  }
+  .advantages {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
   .header__title {
     font-size: 50px;
     span {
@@ -178,7 +182,7 @@
   .stages-of-work__block-item-2__item {
     margin: 20px 0;
   }
-  .stages-of-work__item img{
+  .stages-of-work__item img {
     margin-right: 10px;
     width: 50px;
   }
@@ -188,27 +192,35 @@
   }
   .stages-of-work__block-item-2 {
     margin-top: 0;
+    margin-bottom: 100px;
   }
   .stages-of-work__block-item-2__item span {
     display: none;
   }
   .advantages__block-2 {
-    margin-bottom: 445px;
+    margin-bottom: 0;
   }
-  .active-offers {
-    top: -300px;
-  }
-  .active-offers h2 {
-    text-align: center;
+  .order-form__absolute-bottom {
+    display: none;
   }
   .stages-of-work__absolute {
-    top: -148px;
+    top: -0;
+    display: none;
   }
   .stages-of-work {
-    top: -300px;
+    height: initial;
+  }
+  .active-offers {
+    top: 0;
+    .active-offers h2 {
+      text-align: center;
+    }
+  }
+  .stages-of-work__absolute {
+    top: 0;
   }
   .best-work {
-    top: -300px;
+    top: 0px;
   }
   .best-work .owl-nav {
     top: initial;
@@ -220,7 +232,7 @@
   }
   .order-form {
     min-height: inherit;
-    top: -263px;
+    top: 0;
   }
   .order-form__absolute {
     display: none;
@@ -244,9 +256,14 @@
     margin-top: 0;
     bottom: 0;
   }
+  .order-form span {
+    margin-top: 0;
+    padding-bottom: 30px;
+  }
   .footer-form {
-    top: 100px;
-    min-height: 1000px;
+    top: 0;
+    min-height: inherit;
+    padding-bottom: 50px;
   }
   .footer-form__absolute input {
     width: 100%;
